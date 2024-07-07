@@ -70,3 +70,11 @@ export EDITOR=code
 
 # Set ipdb as the default Python debugger
 export PYTHONBREAKPOINT=ipdb.set_trace
+
+# vscode path
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+
+export PYTHONPATH="/Users/sabasartipi/code/sabasartipi/04-Decision-Science/01-Project-Setup/data-context-and-setup/olis"
+
+export PYTHONPATH="/Users/sabasartipi/code/sabasartipi/04-Decision-Science/01-Project-Setup/data-context-and-setup:$PYTHONPATH"
+eval "$(direnv hook zsh)"
